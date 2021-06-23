@@ -1,0 +1,16 @@
+// Нормализация стилий
+@import 'normalize.css';
+
+// Значения
+@import 'scss/values.scss';
+
+// Шрифты
+@import 'scss/fonts.scss';
+
+// Компоненты
+@import 'scss/components/page.scss';
+@import 'scss/components/page-title.scss';
+@import 'scss/components/input.scss';
+@import 'scss/components/form-converter.scss';
+@import 'scss/components/material-content.scss';
+@import 'scss/components/list.scss';

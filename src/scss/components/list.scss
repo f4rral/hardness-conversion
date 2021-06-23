@@ -1,0 +1,17 @@
+.list {
+  padding-left: 30px;
+
+  font-size: 20px;
+  color: $color-blue;
+
+  .list__item {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+@media screen and (min-width: $size-sm) {
+  .list {
+    padding-left: 60px;
+  }
+}

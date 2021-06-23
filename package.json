@@ -1,0 +1,49 @@
+{
+  "name": "hardness-conversion",
+  "version": "1.0.0",
+  "description": "Перевод единиц твердости",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --progress",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack serve --mode development --open"
+  },
+  "author": "Dmitry Razinkov",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "core-js": "^3.14.0",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.1",
+    "css-url-relative-plugin": "^1.0.1",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.3.4",
+    "postcss-loader": "^6.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "raw-loader": "^4.0.2",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^11.1.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@popperjs/core": "^2.9.2",
+    "depcheck": "^1.4.1",
+    "normalize.css": "^8.0.1"
+  }
+}

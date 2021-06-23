@@ -1,0 +1,562 @@
+[
+  {
+    "vickers": "1865",
+    "hra": "92"
+  },
+  {
+    "vickers": "1787",
+    "hra": "92"
+  },
+  {
+    "vickers": "1710",
+    "hra": "91"
+  },
+  {
+    "vickers": "1633",
+    "hra": "91"
+  },
+  {
+    "vickers": "1556",
+    "hra": "90"
+  },
+  {
+    "vickers": "1478",
+    "hra": "90"
+  },
+  {
+    "vickers": "1400",
+    "hra": "89"
+  },
+  {
+    "vickers": "1323",
+    "hra": "89"
+  },
+  {
+    "vickers": "1245",
+    "hra": "88"
+  },
+  {
+    "vickers": "1160",
+    "hra": "87"
+  },
+  {
+    "vickers": "1076",
+    "hra": "87"
+  },
+  {
+    "vickers": "1004",
+    "hra": "86"
+  },
+  {
+    "vickers": "940",
+    "hra": "86"
+  },
+  {
+    "vickers": "900",
+    "hra": "85"
+  },
+  {
+    "vickers": "865",
+    "hra": "85"
+  },
+  {
+    "vickers": "832",
+    "hra": "84"
+  },
+  {
+    "vickers": "800",
+    "hra": "84"
+  },
+  {
+    "vickers": "772",
+    "hra": "83"
+  },
+  {
+    "vickers": "746",
+    "hra": "83"
+  },
+  {
+    "vickers": "720",
+    "hra": "82"
+  },
+  {
+    "vickers": "697",
+    "hra": "81"
+  },
+  {
+    "vickers": "674",
+    "hra": "81"
+  },
+  {
+    "vickers": "653",
+    "hra": "80"
+  },
+  {
+    "vickers": "633",
+    "hra": "80"
+  },
+  {
+    "vickers": "613",
+    "hra": "79"
+  },
+  {
+    "vickers": "595",
+    "hra": "79"
+  },
+  {
+    "vickers": "577",
+    "hra": "78"
+  },
+  {
+    "vickers": "560",
+    "hra": "78"
+  },
+  {
+    "vickers": "544",
+    "hra": "77"
+  },
+  {
+    "vickers": "528",
+    "hra": "77"
+  },
+  {
+    "vickers": "513",
+    "hra": "76"
+  },
+  {
+    "vickers": "498",
+    "hra": "75"
+  },
+  {
+    "vickers": "484",
+    "hra": "75"
+  },
+  {
+    "vickers": "471",
+    "hra": "74"
+  },
+  {
+    "vickers": "458",
+    "hra": "74"
+  },
+  {
+    "vickers": "446",
+    "hra": "73"
+  },
+  {
+    "vickers": "434",
+    "hra": "73"
+  },
+  {
+    "vickers": "423",
+    "hra": "72"
+  },
+  {
+    "vickers": "412",
+    "hra": "72"
+  },
+  {
+    "vickers": "402",
+    "hra": "71"
+  },
+  {
+    "vickers": "392",
+    "hra": "71"
+  },
+  {
+    "vickers": "382",
+    "hra": "70"
+  },
+  {
+    "vickers": "372",
+    "hra": "70"
+  },
+  {
+    "vickers": "363",
+    "hra": "69"
+  },
+  {
+    "vickers": "354",
+    "hra": "69"
+  },
+  {
+    "vickers": "345",
+    "hra": "68"
+  },
+  {
+    "vickers": "336",
+    "hra": "68"
+  },
+  {
+    "vickers": "327",
+    "hra": "67"
+  },
+  {
+    "vickers": "318",
+    "hra": "67"
+  },
+  {
+    "vickers": "310",
+    "hra": "66"
+  },
+  {
+    "vickers": "302",
+    "hra": "66"
+  },
+  {
+    "vickers": "294",
+    "hra": "65"
+  },
+  {
+    "vickers": "286",
+    "hra": "65"
+  },
+  {
+    "vickers": "279",
+    "hra": "64"
+  },
+  {
+    "vickers": "272",
+    "hra": "64"
+  },
+  {
+    "vickers": "266",
+    "hra": "63"
+  },
+  {
+    "vickers": "260",
+    "hra": "63"
+  },
+  {
+    "vickers": "254",
+    "hra": "62"
+  },
+  {
+    "vickers": "248",
+    "hra": "62"
+  },
+  {
+    "vickers": "243",
+    "hra": "61"
+  },
+  {
+    "vickers": "238",
+    "hra": "61"
+  },
+  {
+    "vickers": "234",
+    "hra": "60"
+  },
+  {
+    "vickers": "230",
+    "hra": "59"
+  },
+  {
+    "vickers": "226",
+    "hra": "59"
+  },
+  {
+    "vickers": "222",
+    "hra": "58"
+  },
+  {
+    "vickers": "217",
+    "hra": "58"
+  },
+  {
+    "vickers": "213",
+    "hra": "58"
+  },
+  {
+    "vickers": "208",
+    "hra": "57"
+  },
+  {
+    "vickers": "204",
+    "hra": "57"
+  },
+  {
+    "vickers": "200",
+    "hra": "56"
+  },
+  {
+    "vickers": "196",
+    "hra": "56"
+  },
+  {
+    "vickers": "192",
+    "hra": "56"
+  },
+  {
+    "vickers": "188",
+    "hra": "55"
+  },
+  {
+    "vickers": "184",
+    "hra": "54"
+  },
+  {
+    "vickers": "180",
+    "hra": "54"
+  },
+  {
+    "vickers": "176",
+    "hra": "53"
+  },
+  {
+    "vickers": "172",
+    "hra": "53"
+  },
+  {
+    "vickers": "168",
+    "hra": "52"
+  },
+  {
+    "vickers": "164",
+    "hra": "51"
+  },
+  {
+    "vickers": "160",
+    "hra": "51"
+  },
+  {
+    "vickers": "156",
+    "hra": "50"
+  },
+  {
+    "vickers": "152",
+    "hra": "50"
+  },
+  {
+    "vickers": "148",
+    "hra": "49"
+  },
+  {
+    "vickers": "144",
+    "hra": "49"
+  },
+  {
+    "vickers": "141",
+    "hra": "48"
+  },
+  {
+    "vickers": "139",
+    "hra": "47"
+  },
+  {
+    "vickers": "137",
+    "hra": "47"
+  },
+  {
+    "vickers": "135",
+    "hra": "46"
+  },
+  {
+    "vickers": "132",
+    "hra": "46"
+  },
+  {
+    "vickers": "130",
+    "hra": "45"
+  },
+  {
+    "vickers": "127",
+    "hra": "45"
+  },
+  {
+    "vickers": "125",
+    "hra": "44"
+  },
+  {
+    "vickers": "123",
+    "hra": "44"
+  },
+  {
+    "vickers": "120",
+    "hra": "43"
+  },
+  {
+    "vickers": "118",
+    "hra": "43"
+  },
+  {
+    "vickers": "116",
+    "hra": "42"
+  },
+  {
+    "vickers": "115",
+    "hra": "42"
+  },
+  {
+    "vickers": "114",
+    "hra": "42"
+  },
+  {
+    "vickers": "113",
+    "hra": "41"
+  },
+  {
+    "vickers": "112",
+    "hra": "41"
+  },
+  {
+    "vickers": "111",
+    "hra": "40"
+  },
+  {
+    "vickers": "110",
+    "hra": "40"
+  },
+  {
+    "vickers": "108",
+    "hra": "39"
+  },
+  {
+    "vickers": "107",
+    "hra": "39"
+  },
+  {
+    "vickers": "106",
+    "hra": "38"
+  },
+  {
+    "vickers": "105",
+    "hra": "38"
+  },
+  {
+    "vickers": "104",
+    "hra": "38"
+  },
+  {
+    "vickers": "103",
+    "hra": "37"
+  },
+  {
+    "vickers": "102",
+    "hra": "37"
+  },
+  {
+    "vickers": "101",
+    "hra": "36"
+  },
+  {
+    "vickers": "100",
+    "hra": "36"
+  },
+  {
+    "vickers": "100",
+    "hra": "35"
+  },
+  {
+    "vickers": "99",
+    "hra": "35"
+  },
+  {
+    "vickers": "98",
+    "hra": "35"
+  },
+  {
+    "vickers": "97",
+    "hra": "34"
+  },
+  {
+    "vickers": "96",
+    "hra": "34"
+  },
+  {
+    "vickers": "95",
+    "hra": "33"
+  },
+  {
+    "vickers": "94",
+    "hra": "32"
+  },
+  {
+    "vickers": "93",
+    "hra": "32"
+  },
+  {
+    "vickers": "92",
+    "hra": "31"
+  },
+  {
+    "vickers": "91",
+    "hra": "31"
+  },
+  {
+    "vickers": "90",
+    "hra": "31"
+  },
+  {
+    "vickers": "90",
+    "hra": "30"
+  },
+  {
+    "vickers": "89",
+    "hra": "30"
+  },
+  {
+    "vickers": "88",
+    "hra": "29"
+  },
+  {
+    "vickers": "87",
+    "hra": "28"
+  },
+  {
+    "vickers": "86",
+    "hra": "28"
+  },
+  {
+    "vickers": "86",
+    "hra": "27"
+  },
+  {
+    "vickers": "85",
+    "hra": "27"
+  },
+  {
+    "vickers": "85",
+    "hra": "26"
+  },
+  {
+    "vickers": "84",
+    "hra": "26"
+  },
+  {
+    "vickers": "84",
+    "hra": "25"
+  },
+  {
+    "vickers": "83",
+    "hra": "25"
+  },
+  {
+    "vickers": "83",
+    "hra": "24"
+  },
+  {
+    "vickers": "82",
+    "hra": "24"
+  },
+  {
+    "vickers": "81",
+    "hra": "23"
+  },
+  {
+    "vickers": "80",
+    "hra": "22"
+  },
+  {
+    "vickers": "79",
+    "hra": "21"
+  },
+  {
+    "vickers": "78",
+    "hra": "21"
+  },
+  {
+    "vickers": "78",
+    "hra": "20"
+  }
+]

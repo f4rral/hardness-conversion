@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="page">
+  <head>
+    <title>Перевод твердости</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body class="page__body">
+    <!-- <%=require('../includes/header.html')%> -->
+    <div class="page__border"></div>
+
+    <main class="page__main">
+      <div class="page__line">
+        <div class="page-title">
+          <img class="page-title__logo" src="<%=require('assets/icon/icon-blue.png')%>" alt="Логотип" width="40" height="40">
+          <span class="page-title__text">Перевод твердости</span>
+        </div>
+      </div>
+     
+      <div class="page__line">
+        <form class="page__form-converter form-converter" id='formConverter'>
+          <div class="input form-converter__input">
+            <label class="input__title" for="inputValue">по Роквеллу, HRA:</label>
+            <input class="input__value" id="inputValue" name="inputValue" type="text" placeholder="введите значение" inputmode="decimal" autocomplete="off">
+          </div>
+        
+          <div class="form-converter__equals"></div>
+          
+          <div class="input form-converter__input">
+            <label class="input__title" for="outputValue">по Виккерсу, HV/10:</label>
+            <input class="input__value" id="outputValue" name="outputValue" type="text" disabled>
+          </div>
+        </form>
+      </div>
+
+      <div class="page__line">
+        <hr class="page__horizontal-line">
+      </div>
+      
+      <div class="page__line">
+        <section class="material-content">
+          <h2 class="material-content__title">Справка</h2>
+          <p class="material-content__paragraph">
+            <b>Твёрдость</b> — свойство материала сопротивляться внедрению более
+            твёрдого тела — <b>индентора</b>.
+          </p>
+        
+          <p class="material-content__paragraph">
+            <b>Твёрдость определяется</b> как отношение величины нагрузки к площади поверхности,
+            площади проекции или объёму отпечатка. Различают поверхностную, проекционную
+            и объемную твёрдость:
+          </p>
+        
+          <ul class="list">
+            <li class="list__item"><b>поверхностная твёрдость</b> — отношение нагрузки к площади поверхности отпечатка</li>
+            <li class="list__item"><b>проекционная твёрдость</b> — отношение нагрузки к площади проекции отпечатка</li>
+            <li class="list__item"><b>объёмная твёрдость</b> — отношение нагрузки к объёму отпечатка</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <div class="page__border"></div>
+    <!-- <%=require('../includes/footer.html')%> -->
+  </body>
+</html>

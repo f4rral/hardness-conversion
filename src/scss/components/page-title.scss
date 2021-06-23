@@ -1,0 +1,28 @@
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title__logo {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  // background-color: $color-yellow;
+}
+
+.page-title__text {
+  margin: 0;
+
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 100%;
+  color: $color-blue;
+  text-align: center;
+}
+
+@media screen and (min-width: $size-sm) {
+  .page-title__text {
+    font-size: 32px;
+  }
+}
