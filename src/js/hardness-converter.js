@@ -7,7 +7,7 @@ let status = {
   inputKey: 'hra', // hra
   outputKey: 'vickers', // vickers
   inputValue: null,
-  outputValue: null,
+  outputValues: null,
 };
 
 status.maxInput = Math.max.apply(null, valuesHardness.map(element => element[status.inputKey]));
@@ -31,7 +31,7 @@ formConverter.oninput = function(event) {
 function controller(status) {
   console.log('run controller');
 
-  status.outputValue = searchHardness(status);
+  status.outputValues = searchHardness(status);
 
   if (!status.inputValue) {
     displayStatus('');
@@ -48,16 +48,19 @@ function controller(status) {
     return;
   }
 
-  if (status.outputValue.length == 0) {
+  if (status.outputValues.length == 0) {
     displayStatus('значений не найдено', true);
     return;
   }
   
-  if (status.outputValue.length > 0) {
-    displayStatus(status.outputValue
-      .map(element => element[status.outputKey])
-      .join('; '));
-    return;
+  if (status.outputValues.length > 0) {
+    let averageValue = average(status.outputValues);
+
+    if (Number.isInteger(averageValue)) {
+      displayStatus(averageValue);
+    } else {
+      displayStatus(averageValue.toFixed(1));
+    }
   }
 }
 
@@ -101,16 +104,24 @@ function searchHardness(criteria) {
 
   for (let i = 0; i < valuesHardness.length - 1; i++) {
     if (Math.abs(valuesHardness[i][inputKey] - inputValue) === minDiff) {
-      accumulator.push(valuesHardness[i]);
+      accumulator.push(valuesHardness[i][outputKey]);
     }
 
     if (Math.abs(valuesHardness[i][inputKey] - inputValue) < minDiff) {
       minDiff = Math.abs(valuesHardness[i][inputKey] - inputValue);
       accumulator = [];
-      accumulator.push(valuesHardness[i]);
+      accumulator.push(valuesHardness[i][outputKey]);
     }
   }
 
   console.log(accumulator);
   return accumulator.sort((a, b) => a[outputKey] - b[outputKey]);
+}
+
+// Расчет среднего значения
+function average(nums) {
+  let sum = nums.reduce((accumulator, item) => (accumulator + parseInt(item)), 0);
+
+  console.log(sum / nums.length);
+  return sum / nums.length;
 }
